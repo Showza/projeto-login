@@ -1,2 +1,104 @@
 @charset "UTF-8";
 
+/*Mobile*/
+/*background-image: linear-gradient(to bottom right, black, #3758b3);*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #3758b3;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    padding: 50px 15px;
+}
+
+form {
+    background-color: white;
+    width: 80%;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+    object-position: center bottom;
+    height: 250px;
+    filter: contrast(1.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+}
+
+div {
+    text-align: center;
+}
+
+#spanEmail ,#spanSenha{
+    background-color: #3758b3;
+    color: white;
+    border-radius: 7px;
+    padding: 1px 2px;
+    margin: 2px;
+    width: 214px;
+    height: 42px;
+}
+
+#iconeLogin, #iconeKey, #iconeMail{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px 5px;
+}
+
+#iemail, #isenha {
+    background-color: #c3d3ff;
+    padding: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    align-items: center;
+    border-radius: 7px;
+}
+
+#entrar{
+    background-color: #3758b3;
+    display: block;
+    margin: auto;
+    border-radius: 7px;
+    width: 214px;
+    height: 42px;
+    color: white;
+}
+
+#spanEsqSenha{
+    color: #3758b3;
+    border: 2px solid #3758b3;
+    border-radius: 7px;
+    width: 214px;
+    height: 42px;
+    margin: 2px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#esqSenha{
+    color: #3758b3;
+    border: none;
+}
