@@ -50,6 +50,7 @@ p {
 
 div {
     text-align: center;
+    height: 50%;
 }
 
 #spanEmail ,#spanSenha{
@@ -101,7 +102,7 @@ div {
 }
 
 #esqSenha{
-    background-color: white;
+    background-color: transparent;
     color: #3758b3;
-    border: none;
+    /*border: none;*/
 }
