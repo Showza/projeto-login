@@ -7,39 +7,41 @@
     <title>Login</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 
 <body>
     <main>
         <form action="#" method="post" autocomplete="on">
-            <img src="imagens/predio.jpg" alt="Predio">
-            <h1>Login</h1>
-            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu
-                ambiente.</p>
-
-
-            <div>
-                <label for="iemail"></label>
-                <span id="spanEmail" class="material-symbols-outlined">
-                    <div id="iconeLogin">login</div><input type="email" name="email" id="iemail"
-                        placeholder="seu e-mail" required autocomplete="email">
-                </span>
-                <label for="isenha"></label>
-                <span id="spanSenha" class="material-symbols-outlined">
-                    <div id="iconeKey">key</div><input type="password" name="senha" id="isenha" placeholder="sua senha"
-                        required autocomplete="current-password">
-                </span>
-            </div>
-
-
-
-            <div>
-                <input type="submit" value="Entrar" id="entrar">
-                <span class="material-symbols-outlined" id="spanEsqSenha"><input type="submit" value="Esqueci a senha" id="esqSenha"><div id="iconeMail">mail</div></span>
+            <div id="predio"><img src="imagens/predio.jpg" alt="Predio"></div>
+            <div id="conteudo">
+                <div id="header">
+                    <h1>Login</h1>
+                    <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu
+                        ambiente.</p>
+                </div>
+                <div class="inputs">
+                    <label for="iemail"></label>
+                    <span id="spanEmail" class="material-symbols-outlined">
+                        <div id="iconeLogin">login</div><input type="email" name="email" id="iemail"
+                            placeholder="seu e-mail" required autocomplete="email">
+                    </span>
+                    <label for="isenha"></label>
+                    <span id="spanSenha" class="material-symbols-outlined">
+                        <div id="iconeKey">key</div><input type="password" name="senha" id="isenha" placeholder="sua senha"
+                            required autocomplete="current-password">
+                    </span>
+                </div>
+                <div class="inputs">
+                    <input type="submit" value="Entrar" id="entrar">
+                    <span class="material-symbols-outlined" id="spanEsqSenha"><input type="submit" value="Esqueci a senha"
+                            id="esqSenha">
+                        <div id="iconeMail">mail</div>
+                    </span>
+                </div>
             </div>
 
         </form>
-
     </main>
 </body>
 
