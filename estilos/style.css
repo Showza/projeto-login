@@ -9,8 +9,7 @@
     box-sizing: border-box;
 }
 
-html,
-body {
+html, body {
     background-color: #3758b3;
     width: 100vw;
     height: 100vh;
@@ -88,6 +87,12 @@ p {
     color: white;
 }
 
+#entrar:hover{
+    background-color: #c3d3ff;
+    color: black;
+    transition: 200ms;
+}
+
 #spanEsqSenha{
     color: #3758b3;
     border: 2px solid #3758b3;
@@ -99,8 +104,17 @@ p {
     vertical-align: middle;
 }
 
+#spanEsqSenha:hover{
+    background-color: #c3d3ff;
+    transition: 200ms;
+}
+
 #esqSenha{
     background-color: transparent;
     color: #3758b3;
     border: none;
+    text-decoration: none;
+    font-size: 0.6em;
+    font-family: Arial, Helvetica, sans-serif;
 }
+

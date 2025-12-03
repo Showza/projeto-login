@@ -24,20 +24,18 @@
                     <label for="iemail"></label>
                     <span id="spanEmail" class="material-symbols-outlined">
                         <div id="iconeLogin">login</div><input type="email" name="email" id="iemail"
-                            placeholder="seu e-mail" required autocomplete="email">
+                            placeholder="seu e-mail" required autocomplete="email" onclick="document.getElementById('iemail').style.backgroundColor = 'white'" onblur="document.getElementById('iemail').style.backgroundColor = '#c3d3ff'">
                     </span>
                     <label for="isenha"></label>
                     <span id="spanSenha" class="material-symbols-outlined">
                         <div id="iconeKey">key</div><input type="password" name="senha" id="isenha" placeholder="sua senha"
-                            required autocomplete="current-password">
+                            required autocomplete="current-password" minlength="8" onclick="document.getElementById('isenha').style.backgroundColor = 'white'" onblur="document.getElementById('isenha').style.backgroundColor = '#c3d3ff'">
                     </span>
                 </div>
                 <div class="inputs">
                     <input type="submit" value="Entrar" id="entrar">
-                    <span class="material-symbols-outlined" id="spanEsqSenha"><input type="submit" value="Esqueci a senha"
-                            id="esqSenha">
-                        <div id="iconeMail">mail</div>
-                    </span>
+                    <span class="material-symbols-outlined" id="spanEsqSenha"><a id="esqSenha" href="esqueciSenha.html">Esqueci a senha</a><div id="iconeMail">mail</div></span>
+                    
                 </div>
             </div>
 
@@ -46,3 +44,4 @@
 </body>
 
 </html>
+
