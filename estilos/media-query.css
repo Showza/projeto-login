@@ -66,7 +66,7 @@
 }
 
 /*Desktops*/
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px){
     html,
     body {
         background-image: linear-gradient(to bottom right, black, #3758b3);
@@ -99,39 +99,4 @@
         text-align: center;
     }
 
-}
-
-/*Telas grandes*/
-@media screen and (min-width: 1200px) {
-    html,
-    body {
-        background-image: linear-gradient(to bottom right, black, #3758b3);
-    }
-
-    main {
-        padding: 200px 0px;
-        width: 100vw;
-        height: 100vh;
-    }
-
-    form{
-        padding: 0px;
-        height: 320px;
-    }
-
-    #predio {
-        width: 35%;
-        float: right;
-    }
-
-    img{
-        border-radius: 0px 20px 20px 0px;
-        height: 320px;
-    }
-
-    #conteudo{
-        width: 65%;
-        padding: 10px;
-        text-align: center;
-    }
 }
